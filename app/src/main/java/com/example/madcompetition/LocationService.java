@@ -8,7 +8,7 @@ import android.os.IBinder;
 import android.os.Looper;
 import android.util.Log;
 
-import com.example.madcompetition.Activties.LoginScreenActivity;
+import com.example.madcompetition.activties.LoginScreenActivity;
 import com.example.madcompetition.BackEnd.AppManager;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;

@@ -12,8 +12,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import com.example.madcompetition.BackEnd.Account;
-import com.example.madcompetition.BackEnd.AccountDatabaseInterface;
+import com.example.madcompetition.BackEnd.account.Account;
+import com.example.madcompetition.BackEnd.Databases.AccountDatabaseInterface;
 
 public class ProfileSelectionActivity extends AppCompatActivity {
 

@@ -3,12 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:background="@color/defualt_message_icon_background"
+    android:backgroundTint="#00FFFFFF">
+
+    <TextView
+        android:id="@+id/FileNameText"
+        android:layout_width="125dp"
+        android:layout_height="20dp"
+        android:autoSizeTextType="uniform" />
 
     <ImageView
         android:id="@+id/PictureMessage"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/common_google_signin_btn_icon_dark_normal" />
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        tools:visibility="visible"></ImageView>
 </FrameLayout>
