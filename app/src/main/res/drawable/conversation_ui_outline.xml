@@ -12,4 +12,5 @@
             android:color="@android:color/white" />
     </shape>
 
+  //  #434343 → #000000
 </selector>

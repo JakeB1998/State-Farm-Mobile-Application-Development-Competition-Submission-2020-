@@ -4,11 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#007A5B5B"
+    android:background="@drawable/gradient_hydrogen"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".Activties.LoginScreenActivity"
+    tools:context=".activties.LoginScreenActivity"
     tools:layout_editor_absoluteY="56dp"
     tools:showIn="@layout/activity_login_screen">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="408dp"
@@ -22,6 +29,9 @@
             android:layout_width="216dp"
             android:layout_height="53dp"
             android:layout_margin="100dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:backgroundTint="@color/whiteSmoke"
+            android:fontFamily="@font/open_sans"
             android:hint="Username"
             android:textColor="#811D1C1C" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -40,7 +50,10 @@
             android:layout_width="216dp"
             android:layout_height="48dp"
             android:layout_margin="100dp"
+            android:background="@android:drawable/editbox_background"
+            android:backgroundTint="@color/whiteSmoke"
             android:ems="10"
+            android:fontFamily="@font/open_sans"
             android:hint="Password"
             android:inputType="textPassword" />
 
@@ -49,32 +62,33 @@
     <Button
         android:id="@+id/NotYouBtn"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
+        android:layout_marginStart="143dp"
         android:layout_marginTop="36dp"
-        android:layout_marginEnd="161dp"
-        android:layout_marginBottom="82dp"
+        android:layout_marginEnd="143dp"
         android:background="@drawable/common_google_signin_btn_icon_dark"
-        android:backgroundTint="#00CBD5D5"
+        android:backgroundTint="@color/whiteSmoke"
+        android:fontFamily="@font/open_sans"
         android:text="Not You?"
-        android:textColor="@color/design_default_color_primary"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LoginBtn"
-        app:layout_constraintVertical_bias="0.049" />
+        app:layout_constraintTop_toBottomOf="@+id/LoginBtn" />
 
     <Button
         android:id="@+id/LoginBtn"
-        android:layout_width="141dp"
+        android:layout_width="125dp"
         android:layout_height="46dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="143dp"
         android:background="@drawable/common_google_signin_btn_icon_dark"
-        android:backgroundTint="#00FFFFFF"
+        android:backgroundTint="@color/whiteSmoke"
+        android:fontFamily="@font/open_sans"
         android:text="Login"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username_text_input_layout" />
 

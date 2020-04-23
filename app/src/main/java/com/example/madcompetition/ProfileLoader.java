@@ -1,7 +1,6 @@
 package com.example.madcompetition;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,10 +8,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 
-import com.example.madcompetition.BackEnd.Account;
-import com.example.madcompetition.BackEnd.Profile;
+import com.example.madcompetition.BackEnd.account.Account;
+import com.example.madcompetition.BackEnd.account.profile.Profile;
 
 public class ProfileLoader extends Fragment {
 

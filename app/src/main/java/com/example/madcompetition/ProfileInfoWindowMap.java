@@ -4,7 +4,8 @@ import android.content.Context;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.madcompetition.BackEnd.Profile;
+import com.example.madcompetition.BackEnd.account.ActivityStatus;
+import com.example.madcompetition.BackEnd.account.profile.Profile;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.Marker;
 

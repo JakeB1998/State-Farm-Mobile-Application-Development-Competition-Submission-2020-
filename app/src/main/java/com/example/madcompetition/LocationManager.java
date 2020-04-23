@@ -15,7 +15,7 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 
-import com.example.madcompetition.Activties.LoginScreenActivity;
+import com.example.madcompetition.activties.LoginScreenActivity;
 import com.example.madcompetition.BackEnd.AppManager;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
