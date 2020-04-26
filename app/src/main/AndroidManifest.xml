@@ -78,10 +78,7 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity
-            android:screenOrientation="portrait"
-            android:name=".activties.ActivityUserMap"
-            android:label="ActivityUserMap" />
+
         <activity android:name=".activties.ActivityCreateAnAccount"></activity>
         <activity
             android:screenOrientation="portrait"

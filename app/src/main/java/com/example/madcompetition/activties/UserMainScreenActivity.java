@@ -135,15 +135,7 @@ public class UserMainScreenActivity extends AppCompatActivity {
 
     public void loadMapActivity()
     {
-        if (AppManager.getInstance().isNetworkAvailable(this)) {
-            Intent intent = new Intent(this, ActivityUserMap.class);
-            startActivity(intent);
-        }
-        else
-        {
-            noNetworkConnectionErrorToUser();
 
-        }
     }
 
     public void loadFriendsListActivity()
